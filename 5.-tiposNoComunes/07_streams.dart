@@ -5,7 +5,13 @@ main()
                     //para utilizar streamcontroller() necesitamos poder importar la libreria de async
 
 //el streamcontroller no cambiara o mutara de tipo de valor y no hay que dejarlo en constante por que no podriamos trabajar con el                    
-final  streamController=StreamController();
+// final  streamController=StreamController();
+
+// para cuando necesitemos solo un tipo de informacion podemos indicarlo
+
+
+//ahora vemos la diferencia de la forma anterior seguimos con el final pero ahora creamos un elemento donde especifiquemos el tipo de informacion que recibiremos
+final streamController = new StreamController<String>();
 
 //stream hace referencia al flujo de informacion
  
