@@ -1,0 +1,7 @@
+# Files and directories created by pub.
+#estos archivos son necesarios y sirven para ciertas caracteristicas de nuestros programas en dart
+.dart_tool/
+.packages
+
+# Conventional directory for build output.
+build/
